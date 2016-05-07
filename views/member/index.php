@@ -128,16 +128,16 @@
       <div class="col-8">
         <div class="infobox">
           <div class="infobox-content">
-            <h1 class="withmargin">Clients</h1>
+            <h1 class="withmargin">Medlemmer</h1>
             <div class="table">
               <div class="table-row">
                 <div class="table-cell">
-                  <input class="input input-cell" type="text" placeholder="Search client" />
+                  <input class="input input-cell" type="text" placeholder="Søg medlem" />
                 </div>
                 <div class="table-cell input-group-button">
                   <button type="button" class="btn btn-primary">
                     <i class="fa fa-search">&nbsp;</i>
-                    Search
+                    Søg
                   </button>
                 </div>
               </div>
@@ -146,13 +146,13 @@
               <div class="navbar">
                 <ul class="nav-tabs">
                   <li class="active">
-                    <a href="clients">
+                    <a href="member">
                       <i class="fa fa-male">&nbsp;</i>
-                      Clients
+                      Medlemmer
                     </a>
                   </li>
                   <li class="">
-                    <a href="clients">
+                    <a href="member">
                       <i class="fa fa-paw">&nbsp;</i>
                       Animals 
                     </a>

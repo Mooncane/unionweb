@@ -14,7 +14,8 @@ class Login_Model extends Model {
    * @return boolean Result of authentication attempt
    */
   function authenticate($user, $password){
-    $loginresult = $this->db->select("SELECT * FROM ".DB_PREFIX."_user WHERE username = :username AND password = :password", ["username" => $user, "password" => md5($password)]);
+    
+    $loginresult = $this->db->select("SELECT * FROM ".DB_PREFIX."user WHERE username = :username AND password = :password", ["username" => $user, "password" => md5($password)]);
     if (!empty($loginresult)){
       return true;
     } else {

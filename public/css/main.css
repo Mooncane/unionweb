@@ -217,7 +217,7 @@ nav.sidebar {
 
 #sidenav-header {
   background-color: white;
-  /* background-image: url('../images/navheader-bluelines.png');*/
+  background-image: url('../images/navheader-bluelines.png');
   display: block;
   position: relative;
   padding: 33px 25px;

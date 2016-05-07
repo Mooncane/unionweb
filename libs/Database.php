@@ -14,10 +14,11 @@ class Database extends PDO {
    * @param Constant $fetchMode
    */
   public function select($sql, $params = array(), $fetchMode = PDO::FETCH_ASSOC){
+
     $sth = $this->prepare($sql);
     $sth->setFetchMode($fetchMode);
     $sth->execute($params);
-        
+    
     return $sth->fetchAll();
     
   }

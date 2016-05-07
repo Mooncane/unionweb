@@ -3,7 +3,7 @@
   <div class="row border-bottom-grey">
     <nav class="navbar bg-color-white" role="navigation">
       <div class="navbar-header">
-        Velkommen til VT Care<sup>&reg;</sup>
+        UnionWEB<sup>&reg;</sup>
       </div>
       <ul class="navbar navbar-top ">
         <li>

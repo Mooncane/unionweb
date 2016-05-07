@@ -2,22 +2,15 @@
 
 /** Constants */
 define('DB_TYPE','mysql');
-define('DB_HOST','mysql40.unoeuro.com');
+define('DB_HOST','localhost');
 define('DB_PATH','');
-define('DB_NAME','flsconnect_dk_db');
-define('DB_USER','flsconnect_dk');
-define('DB_PASSWORD','FLS4711');
-define('DB_PREFIX','pss');
+define('DB_NAME','unionweb');
+define('DB_USER','root');
+define('DB_PASSWORD','');
+define('DB_PREFIX','');
 
 /** Paths */
-define('URL','localhost/foreningsweb');
+define('URL','');
 define('MODELS',URL.'models/');
 define('VIEWS',URL.'views/');
-
-/** Visitour params */
-//define('VTLOC', 'http://83.91.114.22:4711/VTS/WS/');
-//define('VTURI', 'http://83.91.114.22:4711/wsdl/wsdl');
-//define('VTUSER', 'FLS');
-//define('VTPASSWORD', '1147');
-
 

@@ -1,6 +1,6 @@
 <?php
 
-class clients extends Controller {
+class member extends Controller {
 
   function __construct() {
     parent::__construct();
@@ -8,7 +8,7 @@ class clients extends Controller {
   }
   
   public function index(){
-    $this->view->render('clients/index');
+    $this->view->render('member/index');
   }
 
 }

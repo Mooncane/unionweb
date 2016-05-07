@@ -20,7 +20,7 @@
             <?php 
               foreach ($this->userlist as $user){
                 echo "<tr>";
-                echo "<td>".$user['userid']."</td>";
+                echo "<td>".$user['id']."</td>";
                 echo "<td>".$user['username']."</td>";
                 echo "<td>";
                 if ($_SESSION['auth'] != $user['username']){

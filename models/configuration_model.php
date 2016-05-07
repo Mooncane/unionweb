@@ -14,7 +14,7 @@ class configuration_model extends Model {
    * @return array An array consisting of all user data
    */
   public function getUserList(){
-    return $this->db->select("SELECT * FROM ".DB_PREFIX."_user");
+    return $this->db->select("SELECT * FROM ".DB_PREFIX."user");
 
   }
     

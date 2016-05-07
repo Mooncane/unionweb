@@ -7,7 +7,6 @@
   require 'libs/Database.php';
   require 'libs/Session.php';
   require 'libs/Model.php';
-  require 'libs/Visitour.php';
   require 'libs/Date.php';
   
   // configs

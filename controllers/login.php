@@ -21,6 +21,7 @@ class login extends Controller {
     $password = filter_input(INPUT_POST, 'password', FILTER_SANITIZE_STRING);
     
     $res = $this->model->authenticate($user, $password);
+    
     if ($res){
       // authenticate
       Session::init();
