@@ -10,7 +10,7 @@ define('DB_PASSWORD','FLS4711');
 define('DB_PREFIX','pss');
 
 /** Paths */
-define('URL','http://www.flsconnect.dk/pss/');
+define('URL','localhost/foreningsweb');
 define('MODELS',URL.'models/');
 define('VIEWS',URL.'views/');
 
