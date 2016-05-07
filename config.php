@@ -15,9 +15,9 @@ define('MODELS',URL.'models/');
 define('VIEWS',URL.'views/');
 
 /** Visitour params */
-define('VTLOC', 'http://83.91.114.22:4711/VTS/WS/');
-define('VTURI', 'http://83.91.114.22:4711/wsdl/wsdl');
-define('VTUSER', 'FLS');
-define('VTPASSWORD', '1147');
+//define('VTLOC', 'http://83.91.114.22:4711/VTS/WS/');
+//define('VTURI', 'http://83.91.114.22:4711/wsdl/wsdl');
+//define('VTUSER', 'FLS');
+//define('VTPASSWORD', '1147');
 
 
