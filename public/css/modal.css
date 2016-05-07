@@ -1,0 +1,69 @@
+/* CSS styles for modal.js */
+
+.modal-backdrop {
+  background-color: #000;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 2040;
+}
+
+.modal-backdrop.in {
+  opacity: 0.5;
+}
+
+.modal {
+  bottom: 0;
+  display: none;
+  left: 0;
+  outline: 0 none;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 2050;
+}
+
+.modal-dialog {
+  margin:30px auto;
+  width:800px;
+  position: relative;
+  z-index: 2200;
+}
+.modal-content {
+  background-clip: padding-box;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  outline: 0 none;
+  position: relative;
+}
+.modal-header {
+  padding: 30px 15px;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  min-height: 16.43px;
+}
+.modal-body {
+  padding:20px 30px 30px;
+  background-color: #f8fafb;
+  position: relative;
+}
+.modal-body img.loading {
+  width:65px;
+}
+.modal-footer {
+  margin-top:0;
+  border-top: 1px solid #e5e5e5;
+  padding: 15px;
+  text-align: right;
+}
+h4.modal-title {
+  margin:0;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.42857;
+}

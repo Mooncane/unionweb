@@ -1,0 +1,23 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine on
+# RewriteBase /onefive/
+
+# RewriteCond %{HTTP_HOST} ^mysite\.com$ [NC]
+# RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L,NE]
+
+# ignore rest of the rules for files and directories
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+
+
+# RewriteRule ^([\w-]+)/?$ index.php?key=$1 [L,QSA]
+# RewriteRule ^([\w-]+)/([\w-]+)/?$ index.php?key=$1&seo=$2 [L,QSA]
+
+RewriteCond %{DOCUMENT_ROOT}/$1\.php -f [NC]
+RewriteRule ^ - [L]
+RewriteRule ^(.+) index.php?url=$1 [L,QSA]
+
+
+</IfModule>
